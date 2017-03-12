@@ -1,16 +1,16 @@
 # Skype Architecture
 # Authentication Server (name of the file: server1.c)
-•	Compile the file with command, gcc server1.c –o s
+•	Compile the file with command, gcc server1.c –o s  
 •	Run the file by ./s 
 
 # Supernode Server (name of the file: supernode_copy.c)
 •	Compile the file with command gcc supernode_copy.c –o sn –lpthread
-•	Run the file by mentioning any port number, ./sn “portno 1”
-•	Enter another port number for supernode to supernode connection. “portno 2”
-•	 * ENTER THE OTHER ACTIVE SUPERNODE IP AND “portno 2”.
+•	Run the file by mentioning any port number, ./sn “portno 1” 
+•	Enter another port number for supernode to supernode connection “portno 2”  
+•	 * ENTER THE OTHER ACTIVE SUPERNODE IP AND “portno 2”  
 
 # Client (name of the file: client2.c)
-•	Compile the file with command, gcc client2.c –o c
+•	Compile the file with command, gcc client2.c –o c 
 •	Run the file by ./c “IP of authentication server” “6666(by default port number for authentication server)”
 •	Select ‘a’ for login and ‘b’ for registration.
 •	After registration and login, register to supernode server by entering IP address and “portno 1” of supernode.
